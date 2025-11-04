@@ -1,0 +1,500 @@
+   49  ./heap_runner
+   50  ./runner -r ./traces/week2/basic/amptjp.rep
+   51  python3 driver.py -w1
+   52  python3 driver.py
+   53  make clean
+   54  make debug
+   55  ./heap_runner
+   56  python3 driver.py -w1
+   57  ./bump_test
+   58  make clena
+   59  make clean
+   60  make debug
+   61  ./heap_runner
+   62  ./runner -r ./traces/week2/basic/amptjp.rep
+   63  gdb bin/ci
+   64  make clean 
+   65  make debug
+   66  make clean
+   67  make debug
+   68  ./heap_runner
+   69  python3 driver.py -w1
+   70  python3 driver.py
+   71  make clean
+   72  make debug
+   73  ./heap_runner
+   74  python3 driver.py
+   75  ./runner -r ./traces/week2/basic/amptjp.rep
+   76  gdb --args ./runner -r ./traces/week2/basic/amptjp.rep
+   77  make clean
+   78  make all
+   79  make debug
+   80  ./runner -r ./traces/week2/basic/amptjp.rep
+   81  python3 driver.py
+   82  git commit -m check_heap.c
+   83  git push
+   84  python3 driver.py
+   85  ls
+   86  ../
+   87  cd ..
+   88  pwd
+   89  touch ~/.gdbinit
+   90  ls
+   91  ls -a
+   92  echo "set history save on"
+   93  echo "set history save on" > ~/.gdbinit
+   94  cat ~/.gdbinit
+   95  ssh-keygen -t ed25519
+   96  cat /u/emiliano/.ssh/id_ed25519.pub
+   97  mkdir UTCStesting
+   98  ls
+   99  cd UTCStesting
+  100  pwd
+  101  git clone ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICFvHaxvr38GPHzyFy58uV+L4KuZOa/yMUOjbBD1EFYe emiliano@alexandrite
+  102  git clone git@github.com:emilianorios2024/UTCStesting.git
+  103  pwd
+  104  git clone git@github.com:emilianorios2024/UTCStesting.git
+  105  git clone git@github.com:emilianorios2024/UTCStesting.git
+  106  ls
+  107  cd UTCStesting
+  108  pwd
+  109  bash
+  110  ls
+  111  make
+  112  make
+  113  make
+  114  make
+  115  ls
+  116  cd UTCStesting
+  117  make
+  118  ./mini_ci testcases/basic_add.s
+  119  make check
+  120  make clean
+  121  ./mini_ci testcases/basic_add.s
+  122  bash
+  123  ./mini_ci testcases/basic_add.s
+  124  ./mini_ci testcases/basic_add.s
+  125  ./mini_ci testcases/basic_add.s
+  126  ./mini_ci testcases/basic_add.s
+  127  ls
+  128  make
+  129  ls
+  130  ./mini_ci testcases/basic_add.s
+  131  make debug
+  132  make clean
+  133  make debug
+  134  gdb mini_ci
+  135  make clean
+  136  make
+  137  ./mini_ci testcases/basic_add.s
+  138  make cleanmake clean
+  139  make clean
+  140  make
+  141  make
+  142  make clean
+  143  make debug
+  144  ./mini_ci testcases/basic_add.s
+  145  ./mini_ci testcases/basic_add.s
+  146  ./mini_ci testcases/basic_div.s
+  147  ./mini_ci_reference/basic_div.s
+  148  ./mini_ci_reference basic_div.s
+  149  ./mini_ci_reference/basic_div.s
+  150  make 
+  151  ./mini_ci_reference testcases/basic_div.s
+  152  mini_ci_reference testcases/basic_div.s
+  153  ./mini_ci_reference testcases/basic_div.s
+  154  make clean
+  155  make debug
+  156  make check
+  157  ls
+  158  cd UTCStesting/
+  159  ls
+  160  make
+  161  make clean
+  162  make 
+  163  make clean
+  164  make
+  165  ./mini_ci_reference
+  166  ls -l mini_ci_reference
+  167  chmod +x mini_ci_reference
+  168  ./mini_ci_reference
+  169  make check
+  170  make clean
+  171  make debug
+  172  mini_ci testcases/basic_sub.s
+  173  mini_ci testcases/err_ops.s
+  174  make clean
+  175  make debug
+  176  gdb
+  177  gdb mini_ci
+  178  mini_ci testcases/err_ops.s
+  179  make cleanmak
+  180  make clean
+  181  make 
+  182  mini_ci testcases/err_ops.s
+  183  make check
+  184  make cleanA
+  185  make debug
+  186  gdb mini_ci
+  187  make clean
+  188  make
+  189  mini_ci testcases/err_ops2.s
+  190  make clean
+  191  make
+  192  mini_ci testcases/err_ops2.s
+  193  make check
+  194  history 
+  195  hisotry > logfile.txt
+  196  history > logfile.txt
+  197  ls
+  198  echo logfile.txt 
+  199  cat logfile.txt 
+  200  make clean
+  201  make debug
+  202  gdb
+  203  git status
+  204  git add .
+  205  git status
+  206  git commmit -m "finished"
+  207  git commit -m "finished"
+  208  git status
+  209  git push
+  210  cd ..
+  211  cd UTCStesting/
+  212  git log
+  213  ls
+  214  cd UTCStesting/
+  215  cd ..
+  216  rm -rf UTCStesting
+  217  ls
+  218  ls
+  219  pwd
+  220  touch ~/.gdbinit
+  221  ls
+  222  ls -a
+  223  echo set history save on > ~/.gdbinit
+  224  cat ~/.gdbinit
+  225  ls
+  226  ls -a
+  227  cat ~/.gdbinit
+  228  mkdir versionb
+  229  cd versionb/
+  230  pwd
+  231  git clone git@github.com:emilianorios2024/test-1.git
+  232  ls
+  233  cd test-1/
+  234  ls
+  235  ls
+  236  cd
+  237  ls
+  238  pwd
+  239  cd versionb/
+  240  ls
+  241  cd test-1/
+  242  ls
+  243  cd mastery-version-b-master/
+  244  ls
+  245  ls
+  246  make
+  247  cd test-1/
+  248  cd test-1/
+  249  make
+  250  cd test-1/
+  251  pwd
+  252  ls
+  253  cd test-1/
+  254  ls
+  255  cd mastery-version-b-master/
+  256  make
+  257   ./mini_ci testcases/basic_add.s
+  258  make check
+  259  chmod +x mini_ci_reference
+  260  ls -a
+  261  ls -l
+  262  make clean
+  263  make
+  264  make check
+  265  make clean
+  266  make debug
+  267  gdc mini_ci
+  268  clear
+  269  gdb mini_ci
+  270  make
+  271  ./mini_ci
+  272  ./mini_ci testcases/basic_add.s
+  273  make
+  274  ./mini_ci testcases/basic_add.s
+  275  make check
+  276  cd ..
+  277  rm -rf test-1
+  278  ls
+  279  cd ..
+  280  rm -rf test-1
+  281  cd
+  282  git clone git@github.com:CS429-FA2025/shared-repo-version-b-emilianorios2024.git
+  283  git remote -v
+  284  make trex
+  285  make stego
+  286  make trex
+  287  make trex
+  288  git remote -v
+  289  make stego
+  290  make trex
+  291  orderlogs testcases/all_new
+  292  ./orderlogs testcases/all_new
+  293  ls
+  294  ./BIN_DIR testcases/all_
+  295  cd bin
+  296  ls
+  297  make
+  298  make trex
+  299  ls
+  300  ./orderlogs testcases/all_new
+  301  cd ..
+  302  ls
+  303  cd bin/
+  304  ls
+  305  ./orderlogs
+  306  ./orderlogs -f testcases/all_new
+  307  ./orderlogs -f
+  308  ./orderlogs -f all_new
+  309  ./orderlogs -f
+  310  make clean
+  311  cd ..
+  312  make spinosaurus
+  313  make trike
+  314  gdc orderlogs
+  315  gdc reorder.c
+  316  ls
+  317  cd bin
+  318  ls
+  319  cd ..
+  320  bin orderlogs testcases/all_new
+  321  ls -l
+  322  cd bin
+  323  ls -l
+  324  ./orderlogs
+  325  ./orderlogs testcases/all_new
+  326  -f ./orderlogs testcases/all_new
+  327  history > shell_logs.txt
+  328  cat shell_logs.txt
+  329  git status
+  330  git add .
+  331  git status
+  332  git add .
+  333  git commit -m "a"
+  334  git push
+  335  cd ..
+  336  /..
+  337  cd ..
+  338  rm -rf shared-repo-version-b-emilianorios2024/
+  339  ls
+  340  git clone git@github.com:emilianorios2024/bruh.git
+  341  ls
+  342  cd bruh
+  343  ls
+  344  history
+  345  git status
+  346  git add .
+  347  git status
+  348  git commited -m "yay"
+  349  git commit -m "yay"
+  350  git status
+  351  git push
+  352  git clone git@github.com:emilianorios2024/bruh2.git
+  353  ls
+  354  cd bruh2
+  355  ls
+  356  cd mastery-version-beta-master/
+  357  ls
+  358  cd mastery-version-beta-master/
+  359  ls
+  360  pwd
+  361  ls
+  362  clear
+  363  ls
+  364  make moana
+  365  ./bin/second_trie
+  366  ./bin/second_trie -f testcases/dinosaurs.in 
+  367  ./bin/second_trie -f testcases/dinosaurs.in 
+  368  ls
+  369  cd mastery-version-beta-master/
+  370  ls
+  371  cd mastery-version-beta-master/
+  372  ls
+  373  ./bin/second_trie -f testcases/dinosaurs.in 
+  374  make tamatoa
+  375  chmod +x trie_ref
+  376  ls - l trie_ref
+  377  ls -l trie_ref
+  378  make tamatoa
+  379  make nalo
+  380  make maui
+  381  gdb bin/second_trie 
+  382  make nalo
+  383  make moana
+  384  ./bin/second_trie -f testcases/dinosaurs.in 
+  385  make nalo
+  386  make moana
+  387  ./bin/second_trie -f testcases/dinosaurs.in 
+  388  make tamatoa
+  389  history > shell_logs.txt
+  390  git add .
+  391  git status 
+  392  git commit -m "done 2"
+  393  git status
+  394  git push
+  395  ls
+  396  git clone git@github.com:emilianorios2024/bruh3.git
+  397  ls
+  398  make snow
+  399  make grumpy
+  400  chmod +x trie_ref
+  401  make grumpy
+  402  ./bin/second_trie 
+  403  ./bin/second_trie -x testcases/dinosaurs.in 
+  404  make happy
+  405  make doc
+  406  gdb bin/second_trie 
+  407  make happy
+  408  make snow
+  409  ./bin/second_trie -x testcases/dinosaurs.in 
+  410  make happy
+  411  make doc
+  412  gdb bin/second_trie 
+  413  make happy
+  414  make snow
+  415  ./bin/second_trie -x testcases/dinosaurs.in 
+  416  make grumpy
+  417  git status
+  418  git add .
+  419  git status
+  420  git commit -m "yippie:
+  421  git commit -m "yippie"
+  422  git commit -m "yippie"
+  423  git stauts
+  424  git status
+  425  git push
+  426  history > shell_logs.txt
+  427  git stauts
+  428  git add .
+  429  git status
+  430  git commit -m "oops"
+  431  git push
+  432  ls
+  433  git clone git@github.com:CS429-FA2025/se-lab-emi.git
+  434  ls
+  435  cd se-lab-emi/
+  436  make week1
+  437  bin/test-hw
+  438  gdb bin/test-hw
+  439  make clean
+  440  make week1
+  441  bin/test-hw
+  442  make clean
+  443  make week1
+  444  bin/test-hw
+  445  make clean
+  446  make week1
+  447  bin/test-hw
+  448  make clean
+  449  make week1
+  450  bin/test-hw
+  451  make clean
+  452  make week1
+  453  make clean
+  454  make week1
+  455  bin/test-hw
+  456  make clean
+  457  make week1
+  458  bin/test-hw
+  459  bin/test-hw -h
+  460  bin/test-hw -v 1
+  461  make clean
+  462  make week1
+  463  bin/test-hw
+  464  bin/test-hw -v 1
+  465  make clean
+  466  make week1
+  467  bin/test-hw
+  468  make clean
+  469  make week1
+  470  bin/test-hw
+  471  bin/test-hw -v 1
+  472  make clean
+  473  make clean
+  474  make week1
+  475  bin/test-hw -v 1
+  476  bin/test-hw -v 2
+  477  make clean
+  478  make week1
+  479  bin/test-hw
+  480  cd
+  481  ls
+  482  git clone git@github.com:emilianorios2024/fall2025practice.git
+  483  ls
+  484  cd fall2025practice/
+  485  ls
+  486  cd f2025e1-a-master/
+  487  ls
+  488  git remote -v
+  489  make trex
+  490  ls
+  491  make trex
+  492  make stego
+  493  ls
+  494  ls
+  495  cd fall2025practice/
+  496  ls
+  497  cd f2025e1-a-master/
+  498  ls
+  499  make trex
+  500  ls
+  501  cd f2025e1-a-master/
+  502  make trex
+  503  git status
+  504  git pull
+  505  make trex
+  506  make trex
+  507  make stego
+  508  chmod +x ref_order
+  509  make stego
+  510  clear
+  511  ./bin/orderlogs
+  512  ./bin/orderlogs -ftestcases/all_new
+  513  make sponosaurus
+  514  make spinosauras
+  515  make spinosaurus
+  516  make trike
+  517  gdb bin/orderlogs
+  518  make spinosaurus
+  519  make trex
+  520  ./bin/orderlogs -ftestcases/all_new
+  521* make 
+  522  make spinosaurus
+  523  make trex
+  524  gdb bin/orderlogs
+  525  make spinosaurus
+  526  make trike
+  527  gdb bin/orderlogs
+  528  make spinosaurus
+  529  make trike
+  530  ./bin/orderlogs -ftestcases/all_new
+  531  make stego
+  532  ./bin/orderlogs -ftestcases/all_old
+  533  make spinosaurus
+  534  make trike
+  535  gdb bin/orderlogs
+  536  make spinosaurus
+  537  make trex
+  538  make spinosaurus
+  539  make trex
+  540  ./bin/orderlogs -ftestcases/all_old
+  541  make spinosaurus
+  542  make trike
+  543  gdb bin/orderlogs
+  544  make spinosaurus
+  545  make trex
+  546  ./bin/orderlogs -ftestcases/all_old
+  547  make stego
+  548  history > shell_logs.txt
